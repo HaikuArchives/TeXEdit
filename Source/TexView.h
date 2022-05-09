@@ -5,6 +5,10 @@
 #ifndef TEX_VIEW_H
 #define TEX_VIEW_H
 
+#include <TextView.h>
+#include <Rect.h>
+#include <Message.h>
+
 class TexView : public BTextView {
 private :
 

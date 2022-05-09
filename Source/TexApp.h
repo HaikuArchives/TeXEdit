@@ -5,6 +5,11 @@
 #ifndef TEX_APP_H
 #define TEX_APP_H
 
+#include <Application.h>
+#include <Message.h>
+#include <Handler.h>
+#include <Window.h>
+
 class	TexApp : public BApplication {
 private :
 BWindow *actual;

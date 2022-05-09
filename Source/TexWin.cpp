@@ -5,6 +5,21 @@
 #include "TexWin.h"
 #include "TexView.h"
 
+#include <cstdio>
+// Including cstdlib gives an error
+#include <stdlib.h>
+
+#include <Application.h>
+#include <Window.h>
+#include <Menu.h>
+#include <MenuBar.h>
+#include <MenuItem.h>
+#include <ScrollView.h>
+#include <Message.h>
+#include <FilePanel.h>
+#include <Alert.h>
+#include <File.h>
+
 extern BFilePanel *openPanel, *savePanel;
 
 // Constructeur

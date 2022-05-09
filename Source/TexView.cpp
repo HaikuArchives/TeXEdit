@@ -4,6 +4,8 @@
 
 #include "TexView.h"
 
+#include <Window.h>
+
 // Constructeur
 	TexView::TexView(BRect rect)
 		: BTextView (rect, "textview", BRect(5,5,rect.Width()-5,rect.Height()-5), B_FOLLOW_ALL, B_WILL_DRAW | B_PULSE_NEEDED | B_FRAME_EVENTS)
