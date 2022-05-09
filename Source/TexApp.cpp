@@ -5,6 +5,9 @@
 #include "TexApp.h"
 #include "TexWin.h"
 
+#include <FilePanel.h>
+#include <Alert.h>
+
 // variables globales;
 
 BFilePanel *openPanel, *savePanel;

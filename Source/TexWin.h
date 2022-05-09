@@ -7,6 +7,8 @@
 
 #include "TexView.h"
 
+#include <Window.h>
+
 class TexWin : public BWindow {
 private :
 TexView *view;
